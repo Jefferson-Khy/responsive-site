@@ -1,0 +1,80 @@
+@media (max-width: 1200px) {
+  #yt-container {
+    top: 65%;
+    width: 280px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 992px) {
+  #yt-container {
+    top: 70%;
+    width: 240px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  #yt-container {
+    top: 75%;
+    width: 200px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  #yt-container {
+    top: 80%;
+    width: 160px;
+    height: 100px;
+  }
+}
+
+body {
+  background-image: url("https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAzL3Jhd3BpeGVsX29mZmljZV81M19hX21pbmltYWxfYW5kX2xlc3NfZGV0YWlsX2lsbHVzdHJhdGlvbl9vZl9jb19kM2Q3N2VhNS02YjQyLTQ3MTEtYmNkYy04NmY0NGNlNWZiNzMuanBn.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#container {
+  display: flex;
+  justify-content: end;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+#todo-list {
+  background-image: url("https://s3.envato.com/files/329543713/rm218batch3-ning-15.jpg");
+  background-size: cover;
+}
+
+.navbar {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-brand {
+  color: greenyellow;
+  font-size: x-large;
+}
+
+#yt-box {
+  width: 100%;
+  height: 100%;
+}
+
+#yt-container {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 315px;
+  height: 180px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
